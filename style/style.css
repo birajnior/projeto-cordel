@@ -26,7 +26,7 @@ h1 {
     font-family: var(--font1);
     background-color: #000;
     color: #fff;
-    font-size: 5rem;
+    font-size: 8vw;
     padding-top: 50px;
     padding-bottom: 10px;
     align-items: center;
@@ -38,7 +38,7 @@ header > p {
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.2vw;
     font-weight: 550;
     padding-bottom: 40px;
     background-color: #000;
@@ -49,4 +49,54 @@ header > p {
 p > a {
     text-decoration: none;
     color: #fff;
+}
+
+.pattern {
+    font-family: var(--font2);
+    font-weight: normal;
+    font-size: 4vh;
+    margin: 9vh 0 9vh 5vh;    
+    line-height: 70px;
+}
+
+.image > p{
+    width: 500px;
+    font-family: var(--font3);
+    color: #fff;
+    font-size: 4vh;
+    margin: 9vh 0 9vh 5vh;    
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+#img01 {
+    height: 700px;
+    background-image: url(../img/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img02 {
+    height: 700px;
+    background-image: url(../img/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 2vh;
+    padding: 15px;
 }
